@@ -1,1 +1,39 @@
-﻿
+﻿label {
+    user-select: none;
+}
+
+li {
+    user-select: none;
+}
+
+li li {
+    font-style: italic;
+}
+
+input:checked + label {
+    font-weight: bold;
+}
+
+#mail {
+    background: lightyellow;
+}
+
+#mail:invalid {
+    border: solid 1px red;
+}
+
+label:has(:invalid){
+    color: red;
+}
+
+input:not(:checked) ~ fieldset {
+    display: none;
+}
+
+label:has(+#mail:invalid){
+    color: red;
+}
+
+fieldset:not(:has(input:not(:checked))){
+    border-color: greenyellow;
+}
