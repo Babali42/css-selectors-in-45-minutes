@@ -5,6 +5,12 @@ John et Baptiste - 25/03/2024
 *Reprendre le code supprimer tout les styles sauf le layer, et suivre les étapes suivantes pour apprendre ou réviser les
 sélecteurs css*
 
+# Résumé : Une introduction aux bases de css
+
+- **DOM** et **CSS**
+- Quelques **selecteurs**
+- **Specificity** expliquée
+
 # Etapes
 
 - labels pas sélectables
